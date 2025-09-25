@@ -5,7 +5,7 @@ use std::time::Duration;
 use DistributedQueueMini::core::buildcore::DistributedQueueSystem;
 
 fn main() {
-    // Create 5 node IDs for example
+    // Create 100 node IDs for example
     let node_ids: Vec<String> = (0..100).map(|i| format!("N{}", i)).collect();
 
     // Initialize DistributedQueueSystem for each node
